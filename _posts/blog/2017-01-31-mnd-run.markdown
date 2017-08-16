@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "MND Run"
+date:   2017-01-31
+author: David Capelle
+categories: 
+- blog
+- fundraising
+img: mndrun.png
+permalink: /mndrun/
+---
+
+As the first major event of this year we are planning to host a 5 km fundraising run in support of our patients. We would like to thank everyone who has registered for the run and regret that we had to close registrations for the run already.
+
+We look forward to meeting our patients, families on 12 February for a fun-filled run and hope that this acitivity will benefit our cause and add to the public awareness which is urgently needed to reach out to all those patients with MND who have not yet made contact with us.

@@ -1,0 +1,63 @@
+---
+layout: index
+title: Home
+permalink: /
+---
+
+<div id="service" class="linkswrap">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-sm-4">
+                <i class="fa fa-question"></i>
+                <h4>What is MND?</h4>
+                <p>Are you concerned that you or someone you know might have motor neurone disease? What is the difference between motor neurone disease (MND) and amyotrophic lateral sclerosis (ALS)? Find out about the basics and how to get professional support.</p><a href="{{"/whatismnd/" | prepend: site.baseurl }}" class="btn btn-theme">Learn more</a>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-heart-o"></i>
+                <h4>Our Goals</h4>
+                <p>We support patients with motor neurone disease/amyotrophic lateral sclerosis (MND/ALS) and their caregivers free of charge throughout Malaysia. We aim to educate medial professionals and members of the public in MND/ALS and raise awareness regarding the needs of people living with the disease.</p><a href="{{"/whatwedo/" | prepend: site.baseurl }}"" class="btn btn-theme">What we do</a>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-users"></i>
+                <h4>Get Involved</h4>
+                <p>Find out how you can help us to support people living with motor neurone disease. Become a volunteer. Make a donation. Support our educational outreach. Whether you are a healthcare professional or a layperson get in touch with us to see how you can contribute to our work and make a difference in the lives of people living with MND.</p><a href="{{"/getinvolved/" | prepend: site.baseurl }}" class="btn btn-theme">Support us</a>
+            </div>		 				
+        </div>
+    </div><! --/container -->
+</div><! --/service -->
+
+<hr class="style-four">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-centered">
+      <a href="{{"/mndrun/" | prepend: site.baseurl }}"><img src="{{ "/assets/img/mndrunlandscape.png" | prepend: site.baseurl }}" class="img-responsive"></a>
+	</div>
+	</div>
+</div>
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-sm-4">
+            <h4>Frequently Asked</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] %} 
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %}
+        </div>
+
+        <div class="col-sm-4">
+            <h4>Latest Blog Posts</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:5 %} 
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %} 
+        </div>
+        <div class="col-sm-4">
+            <h4>Follow us on Twitter</h4>
+            <div class="hline"></div>
+<a class="twitter-timeline" data-height="400" href="https://twitter.com/mnd_malaysia">Tweets by MND Malaysia</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->

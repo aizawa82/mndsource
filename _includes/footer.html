@@ -1,0 +1,29 @@
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h4>Follow Us On</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-sm-6 contact-footer">
+                <h4>Contact</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                    <a href="mailto:contact@mnd.org.my">contact@mnd.org.my</a><br>
+                    {{site.tel}}<br>
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+<ul class="nav pull-right scroll-top">
+  <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+</ul>
+</div><! --/footerwrap -->
