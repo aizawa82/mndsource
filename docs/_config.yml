@@ -5,7 +5,7 @@ title: MND Malaysia
 description: "MND Malaysia supports people living with Motor Neurone Disease across Malaysia"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://www.mnd.org.my"
+#url: "http://www.mnd.org.my"
 
 # Build settings
 markdown: kramdown
