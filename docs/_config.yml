@@ -6,7 +6,7 @@ description: "MND Malaysia supports people living with Motor Neurone Disease acr
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 #url: "http://www.mnd.org.my"
-
+url: "https://aizawa82.github.io/mndsource"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
