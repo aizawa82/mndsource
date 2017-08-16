@@ -53,6 +53,7 @@ tel: +6017-8838839
 members:
 
   - name: Benny Ng
+    img: benny.jpeg
     position: Chairman
     social:
       - title: envelope #use for email address
@@ -61,6 +62,7 @@ members:
         url: http://twitter.com/handle
 
   - name: Cheong Soo Futt
+    img: soo.jpeg
     position: Volunteer
     social:
       - title: envelope #use for email address
@@ -69,6 +71,7 @@ members:
         url: http://twitter.com/handle
 
   - name: Joe Liew
+    img: joe.jpeg
     position: Volunteer
     social:
       - title: envelope #use for email address
@@ -77,14 +80,7 @@ members:
         url: http://twitter.com/handle
 
   - name: Magdeline Liew
-    position: Volunteer
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-
-  - name: Siti Nur Omaira
+    img: magdeline.jpeg
     position: Volunteer
     social:
       - title: envelope #use for email address
@@ -93,6 +89,7 @@ members:
         url: http://twitter.com/handle
 
   - name: ET Ong
+    img: et.jpeg
     position: Volunteer
     social:
       - title: envelope #use for email address
@@ -101,6 +98,7 @@ members:
         url: http://twitter.com/handle
 
   - name: Prof. Dr. Goh Khean Jin
+    img: goh.jpeg
     position: Consultant Neurologist
     text: Consultant in the department of neurology at University Malaya Medical Centre.
     social:
@@ -110,6 +108,7 @@ members:
         url: http://twitter.com/handle
 
   - name: Dr. Loh Ee Chin
+    img: loh.jpeg
     position: Consultant Palliative Care Physician
     text: Consultant in the department of neurology at University Malaya Medical Centre.
     social:
@@ -119,6 +118,7 @@ members:
         url: http://twitter.com/handle
 
   - name:  Prof. Dr. Lydia Binti Abdul Latif
+    img: lydia.jpeg
     position: Consultant Rehabilitative Physician
     text: Consultant in the department of rehabilitation medicine at University Malaya Medical Centre.
     social:
@@ -128,6 +128,7 @@ members:
         url: http://twitter.com/handle
 
   - name:   Prof. Dr. Nortina Shahrizaila 
+    img: nortina.jpeg
     position: Consultant Neurologist
     text: Consultant in the department of neurology at University Malaya Medical Centre.
     social:
@@ -137,6 +138,7 @@ members:
         url: http://twitter.com/handle
 
   - name:  Dr. Sheriza Izwa Zainuddin
+    img: sheriza.jpeg
     position: Consultant Palliative Care Physician
     text: Consultant in the department of palliative care at University Malaya Medical Centre.
     social:
@@ -146,6 +148,7 @@ members:
         url: http://twitter.com/handle
 
   - name: Dr. David Capelle 
+    img: david.jpeg
     position: Volunteer
     text: Registrar at University Malaya Medical Centre. 
     social:
@@ -155,6 +158,7 @@ members:
         url: http://twitter.com/handle
 
   - name: Dr. Ng Woon Fang
+    img: wf.jpeg
     position: Volunteer
     social:
       - title: envelope #use for email address
